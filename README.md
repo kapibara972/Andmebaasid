@@ -1,6 +1,9 @@
 # Andmebaasid
 Andmebaaisd seotud sql kood ja konspektid
 
+SQL - Structured Query Language - struktureeritud päringukeel
+DDL - Data Definitsion Language - andmebaasi struktuuri loomiseks
+DML - Data Manipulation Language -andmete lisamine ja uuendamine tabelis -INSERT, UPDATE, DELETE 
 
 ### tunnis me kasutame andmebaasisüsteemid
 1. SQL server Management Stuudio ( SQL serveri haldamiseks )
