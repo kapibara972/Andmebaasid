@@ -38,3 +38,4 @@ CREATE TABLE Opetamine (
     opeaine VARCHAR(50),
     maht INT,
     FOREIGN KEY (opetajaID) REFERENCES Opetaja(opetajaID)
+    
