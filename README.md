@@ -4,7 +4,9 @@ Andmebaaisd seotud sql kood ja konspektid
 
 ### tunnis me kasutame andmebaasisüsteemid
 1. SQL server Management Stuudio ( SQL serveri haldamiseks )
-2. XAMPP - phpmyAdmin ( MariaDB andmebaas ) -vabavara
+   <img width="478" height="507" alt="{B7C0F252-2E27-42C3-B1CB-E83BDA5F13EF}" src="https://github.com/user-attachments/assets/c1d99a84-a236-41c6-8547-8bd78b56dd61" />
+
+3. XAMPP - phpmyAdmin ( MariaDB andmebaas ) -vabavara
 
 ### Põhimõisted
 Andmebaas- Struktuuritud andmed kogum
