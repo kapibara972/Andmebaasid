@@ -32,3 +32,12 @@ Välisvõti ( võõrvõti ) -FK Foreign Key - veerg, mis loob seose teise tabeli
 3. Unique
 4. Not Null
 5. Check
+```
+
+
+## Tabelivahelised Seosed
+üks - ühele ( nt mees --naine)
+üks - mitmele (õpilane käib erinevates õppeainetes)
+<img width="315" height="292" alt="{48882D87-0444-4831-AFD3-0D2FA425A765}" src="https://github.com/user-attachments/assets/53c6f807-c45b-4fa0-9694-46bcf4e5046b" />
+
+- mitu - mitmele ( nt õpilane - õpetaja)
