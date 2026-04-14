@@ -41,3 +41,12 @@ Välisvõti ( võõrvõti ) -FK Foreign Key - veerg, mis loob seose teise tabeli
 <img width="315" height="292" alt="{48882D87-0444-4831-AFD3-0D2FA425A765}" src="https://github.com/user-attachments/assets/53c6f807-c45b-4fa0-9694-46bcf4e5046b" />
 
 - mitu - mitmele ( nt õpilane - õpetaja)
+
+
+
+
+
+
+
+opetaja ja opetaminen tabelid ül 
+<img width="729" height="202" alt="{456F1F08-52D6-4D93-98D8-C8BA4B678341}" src="https://github.com/user-attachments/assets/59f16df6-4e35-4dda-b57e-966df7607600" />
