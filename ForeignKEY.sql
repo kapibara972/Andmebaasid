@@ -22,3 +22,19 @@ DROP Database  TARpv23
 -- Tabelirida kustutamine
 select * from opilane
 delete from opilane where opilaneID=4;
+
+
+
+--Ül tabelitega opetaja ja opetamine
+CREATE TABLE Opetaja (
+    opetajaID INT PRIMARY KEY,
+    nimi VARCHAR(50),
+    ruum VARCHAR(20)
+);
+
+CREATE TABLE Opetamine (
+    opetamineID INT PRIMARY KEY,
+    opetajaID INT,
+    opeaine VARCHAR(50),
+    maht INT,
+    FOREIGN KEY (opetajaID) REFERENCES Opetaja(opetajaID)
