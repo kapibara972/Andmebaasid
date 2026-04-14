@@ -26,4 +26,9 @@ Välisvõti ( võõrvõti ) -FK Foreign Key - veerg, mis loob seose teise tabeli
 - date, time, datetime - kuupäev
 
 ### Piirangud
-1. 
+```
+1. primary Key
+2. Foreign Key
+3. Unique
+4. Not Null
+5. Check
