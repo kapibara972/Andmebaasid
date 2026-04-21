@@ -60,7 +60,7 @@ opetaja ja opetaminen tabelid ül
 
 ## store procedure
   salvestatud protseduurid - sama mis on funktsioonid programeerimises - mingi tegevus, mida saab automaatselt teha ( insert, select, update, delete) 
- ```
+ ```sql
 select * from categories 
 --proceduur, mis täidab tabeli 
 create procedure lisaKategooria
