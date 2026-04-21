@@ -51,11 +51,26 @@ Välisvõti ( võõrvõti ) -FK Foreign Key - veerg, mis loob seose teise tabeli
 
 - mitu - mitmele ( nt õpilane - õpetaja)
 
-
-
-
-
-
-
 opetaja ja opetaminen tabelid ül 
 <img width="729" height="202" alt="{456F1F08-52D6-4D93-98D8-C8BA4B678341}" src="https://github.com/user-attachments/assets/59f16df6-4e35-4dda-b57e-966df7607600" />
+
+
+
+
+
+## store procedure
+  salvestatud protseduurid - sama mis on funktsioonid programeerimises - mingi tegevus, mida saab automaatselt teha ( insert, select, update, delete) 
+ ```
+select * from categories 
+--proceduur, mis täidab tabeli 
+create procedure lisaKategooria
+@nimi varchar(15)
+as
+begin
+	insert into categories
+	values (@nimi);
+	select *from categories;
+end
+--kutse
+exec lisaKategooria 'test';
+```
