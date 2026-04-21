@@ -73,4 +73,91 @@ begin
 end
 --kutse
 exec lisaKategooria 'test';
+
+
+--proceduur, mis kustutab tabelist id järgi
+create procedure kustutaIdJargi
+@id int 
+AS
+begin
+	select *from categories;
+	delete from categories where category_id=@id;
+	select *from categories;
+end
+--kutse
+exec kustutaIdJargi 3;
+
+--otsing 
+--protseduur mis otsib kõik kategooriad sisestatud 1 tähte järgi
+create procedure otsing1taht 
+@taht char(1)
+as
+begin
+	select category_name from categories
+	where category_name like @taht + '%';
+end
+--kutse
+exec otsing1taht 'a' 
+
+
+-- proeduur, mis uuendab nimed sisestatud id järgi
+create procedure uuendaKategooria 
+@id int,
+@uuendatudNimi varchar(20)
+as
+begin
+	select *from categories;
+	update categories set category_name=@uuendatudNimi
+	where category_id=@id;
+end
+
+--kutse
+exec uuendaKategooria 4, 'jope'
 ```
+
+### iseseisev töö ÜL
+### --iseseisvalt: vali tabel ja kirjuta 3 protseduuri, käivita!
+```sql
+--iseseisvalt: vali tabel ja kirjuta 3 protseduuri, käivita!
+
+select * from brands
+--1. täidab tabeli 
+create procedure lisaBrand
+@nimi varchar(15)
+as
+begin
+	insert into brands
+	values (@nimi);
+	select *from brands;
+end
+--kutse
+exec lisaBrand 'test2.0';
+
+--2. kustutab tabelist
+create procedure kustutaBrand
+@id int 
+AS
+begin
+	select *from brands;
+	delete from brands where brand_id=@id;
+	select *from brands;
+end
+--kutse
+exec kustutaBrand 5;
+
+--3. uuendab nimed
+create procedure brandNimiuus 
+@id int,
+@uusNimi varchar(20)
+as
+begin
+	select *from brands;
+	update brands set brand_name=@uusNimi
+	where brand_id=@id;
+	select *from brands;
+end
+
+--kutse
+exec brandNimiuus 2, 'kukk'
+```
+
