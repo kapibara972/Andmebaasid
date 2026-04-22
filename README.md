@@ -114,6 +114,7 @@ end
 --kutse
 exec uuendaKategooria 4, 'jope'
 ```
+<img width="424" height="200" alt="{8E78F98E-0DCF-4491-99D4-E89106FE361A}" src="https://github.com/user-attachments/assets/81d99f5b-dbee-4157-ab0e-7886e2a00340" />
 
 ### iseseisev töö ÜL
 ### --iseseisvalt: vali tabel ja kirjuta 3 protseduuri, käivita!
