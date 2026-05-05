@@ -52,3 +52,38 @@ insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('483x0S'
 insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('614Yt8', 'Mazda', 'B-Series', 2006, 'Purple', '€5996,39');
 insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('919fc5', 'Chrysler', 'Pacifica', 2004, 'Violet', '€7351,53');
 ```
+
+
+```sql
+drop table auto;
+--näita kõik
+select *from auto;
+-- näita ainlt mark, mudel ja hind
+select mark, mudel, hind from auto;
+
+--tingimused
+--sorteerimine- order by -kasvavalt, DESC - kahanevalt
+select mark, mudel, hind
+from auto
+order by hind DESC
+```
+<img width="306" height="271" alt="{9240BAB1-020D-40F6-8896-3207B65843FC}" src="https://github.com/user-attachments/assets/21e475ed-036f-4cac-9ecf-721d33e16663" />
+
+<img width="244" height="218" alt="{7AB232BE-E8E5-47A0-8107-0EF680CF1A6A}" src="https://github.com/user-attachments/assets/451ea9a5-bc3b-409b-840c-ca52ff5c6f3a" />
+
+<img width="214" height="329" alt="{BDA19326-22C6-4B22-8B0F-35C9DD897951}" src="https://github.com/user-attachments/assets/a501cb90-b292-4c72-8033-f361778dbd2e" />
+
+<img width="330" height="389" alt="{E19F4AD2-6ACF-4CD4-8E2D-8E3A52E11E4C}" src="https://github.com/user-attachments/assets/0e25ae78-bbba-45fb-b458-ca2541ec7e75" />
+
+
+
+### vaade loomine -VIEW ###
+<img width="361" height="396" alt="{0BEB1D18-ADD6-4B0E-AD72-E1CCA334B03B}" src="https://github.com/user-attachments/assets/e7e0d863-359c-4674-9d41-fa232fa8ea23" />
+
+
+
+### Agregaatfunktsioonid -SUM, MAX, MIN, AVG, COUNT- kogus ###
+<img width="603" height="612" alt="{232BB54D-312B-4EA7-BE24-3A085E5D3443}" src="https://github.com/user-attachments/assets/e318c570-e834-4538-91c5-9008df38cb86" />
+
+
+
