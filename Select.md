@@ -1,0 +1,54 @@
+<img width="506" height="360" alt="{2FFE95FE-305B-4AA5-BE55-F744977D3645}" src="https://github.com/user-attachments/assets/ce22eb2c-38f6-4b19-baae-9caaf15612b9" />
+
+```sql
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('574 8v4', 'Chevrolet', 'Monte Carlo', 1997, 'Blue', '€8608,50');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('217 ba4', 'Plymouth', 'Sundance', 1993, 'Violet', '€4547,02');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('714 Vt3', 'Honda', 'Accord', 2000, 'Pink', '€2961,15');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('988 ioR', 'Audi', 'S4', 2007, 'Orange', '€3264,94');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('447 Bfa', 'GMC', 'Safari', 2002, 'Aquamarine', '€9704,09');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('587 fVf', 'Dodge', 'Caravan', 2010, 'Khaki', '€8040,66');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('866 KmQ', 'Infiniti', 'M', 1992, 'Purple', '€1065,10');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('326 Z1F', 'Mercedes-Benz', 'SL-Class', 2007, 'Turquoise', '€119,67');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('166 wqH', 'BMW', '3 Series', 2002, 'Maroon', '€5617,52');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('073 3ce', 'Pontiac', 'Bonneville', 1966, 'Red', '€4161,63');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('490 Ut3', 'Pontiac', 'LeMans', 1967, 'Orange', '€7771,21');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('271 m2O', 'GMC', '2500', 1996, 'Puce', '€5635,25');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('201 37W', 'Volvo', '960', 1993, 'Purple', '€4140,02');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('077 K26', 'Chrysler', 'Town & Country', 1999, 'Green', '€7863,65');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('027 bC1', 'GMC', 'Canyon', 2005, 'Red', '€5179,24');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('855 uk3', 'Mitsubishi', 'Galant', 2011, 'Mauv', '€6392,61');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('862 ob4', 'Volvo', 'C70', 2013, 'Violet', '€9306,45');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('293 Kgw', 'Mitsubishi', 'RVR', 1994, 'Pink', '€1303,11');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('630 TZH', 'Buick', 'Regal', 2004, 'Khaki', '€6678,27');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('411 UIf', 'Ford', 'Courier', 1986, 'Green', '€9433,26');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('232 HND', 'Ford', 'Explorer', 2002, 'Turquoise', '€2670,05');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('393 REi', 'Dodge', 'Avenger', 1996, 'Crimson', '€9835,73');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('019 f2a', 'BMW', '525', 2006, 'Maroon', '€7039,43');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('934 fdN', 'Nissan', 'Sentra', 2010, 'Purple', '€2369,71');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('496 JyK', 'Dodge', 'Caravan', 2007, 'Indigo', '€930,69');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('587 kbp', 'Buick', 'Riviera', 1991, 'Puce', '€989,58');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('301 2Gb', 'Subaru', 'Forester', 1998, 'Teal', '€3361,91');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('971 svJ', 'Honda', 'Civic', 2012, 'Violet', '€3144,17');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('293 DRx', 'Hyundai', 'Azera', 2009, 'Maroon', '€5219,74');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('279 XkG', 'Oldsmobile', '88', 1992, 'Puce', '€2236,89');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('689 zLw', 'Chrysler', 'Town & Country', 1993, 'Khaki', '€5893,08');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('678 IdN', 'Cadillac', 'DeVille', 1995, 'Orange', '€3874,66');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('266 Dkv', 'GMC', 'Yukon', 1992, 'Red', '€168,66');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('938 45T', 'Mazda', 'Miata MX-5', 1997, 'Yellow', '€8085,26');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('009 LJp', 'Hyundai', 'Azera', 2007, 'Fuscia', '€5177,32');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('294 JOn', 'Nissan', 'Maxima', 1999, 'Aquamarine', '€6800,77');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('110 bCd', 'Honda', 'Odyssey', 2002, 'Pink', '€4327,40');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('835 lCK', 'Suzuki', 'XL-7', 2006, 'Blue', '€7375,98');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('912 mOw', 'Lexus', 'IS', 2004, 'Violet', '€2535,64');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('703 ioI', 'Alfa Romeo', '164', 1992, 'Blue', '€2841,37');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('945 jJ4', 'Ford', 'F-Series', 2004, 'Teal', '€2913,19');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('421 Wik', 'Plymouth', 'Neon', 1998, 'Turquoise', '€9113,90');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('428 d5g', 'GMC', 'Savana 2500', 2006, 'Indigo', '€1105,87');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('460 hml', 'Kia', 'Rio', 2006, 'Purple', '€9214,24');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('437 JLX', 'Jeep', 'Grand Cherokee', 2000, 'Crimson', '€9252,93');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('980 H6u', 'Pontiac', 'Firebird', 2000, 'Puce', '€3398,78');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('005 k4P', 'Mitsubishi', 'Mirage', 1987, 'Turquoise', '€7052,91');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('200 YyE', 'Mercedes-Benz', 'R-Class', 2010, 'Purple', '€309,36');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('609 d0J', 'Mercedes-Benz', 'S-Class', 1991, 'Pink', '€87,43');
+insert into auto (autonumber, mark, mudel, v_aasta, varv, hind) values ('954 LEb', 'Buick', 'Electra', 1985, 'Red', '€524,48');
+```
