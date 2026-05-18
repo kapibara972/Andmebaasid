@@ -36,3 +36,39 @@ WHERE id = 1;
 UPDATE movies
 SET moviesYear = 2025
 WHERE id = 2;
+
+
+tunni töö 
+create database kasutajaBaas
+use kasutajaBaas
+
+
+create table puhkus(
+puhkusId int primary key identity (1,1),
+nimetus varchar (25) not null,
+algus date,
+lopp date,
+kirjeldus text);
+insert into puhkus(nimetus, algus, lopp)
+values('lisapuhkus','2026-02-15','2026-02-25')
+
+select *from puhkus;
+
+--Security -> logins -> new login
+
+--grant - õiguste määramine
+--deny - õiguste keelamine
+
+-- anname kasutajatel direktorNicolas õigus 
+-- ainult kustutada ja uuendada tabelit ( DELETE, UPDATE, SELECT)
+
+grant delete on puhkus to direktorNicolas;
+grant update on puhkus to direktorNicolas;
+grant Select on puhkus to direktorNicolas;
+
+
+-- keelame INSERT
+deny insert on puhkus to direktorNicolas;
+
+update puhkus set kirjeldus='test'
+delete from puhkus where puhkusId=1
