@@ -150,6 +150,7 @@ select *from logi
 ```
 
 
+
 ### XAMPP / päästik / trigerid
 <img width="683" height="704" alt="{54760442-D152-4E75-94D9-00D64441E612}" src="https://github.com/user-attachments/assets/95545751-52fc-4442-9169-0bc988ffb819" />
 
@@ -167,5 +168,193 @@ select *from logi
 2. <img width="786" height="52" alt="{D985FEC7-ADE3-4FEF-9C81-118EFD7DB3A9}" src="https://github.com/user-attachments/assets/c583f14d-a559-464d-aa4b-178ee9173ff2" />
 
 
+
+### SQL lõpp ül kood 
+
+```sql
+use trigerLogitpe24
+
+--tabel logi
+create table logi2(
+    logiId int identity(1,1) primary key,
+    kasutaja varchar(50),
+    aeg datetime,
+    andmed varchar(255)
+);
+
+--tabel puustik
+create table puustik(
+väljadId int primary key identity(1,1),
+nimi varchar (33),
+pikkus int,
+kasvamiseKoht varchar(33),
+vanus int,
+puuTyyp varchar (33));
+
+--insert triger
+create trigger puuLisamine
+on puustik
+for insert
+as
+insert into logi2(kasutaja, aeg, andmed)
+select
+SYSTEM_USER,
+GETDATE(),
+concat(
+'Lisatud puu: ',
+inserted.nimi, ', ',
+inserted.pikkus, ' m, ',
+inserted.kasvamiseKoht, ', ',
+inserted.vanus, ' aastat, ',
+inserted.puuTyyp )
+from inserted;
+
+--kontroll
+insert into puustik(nimi, pikkus, kasvamiseKoht, vanus, puuTyyp)
+values ('kask2', 17.5, 'Tartu', 25, 'lehtpuu');
+
+
+select * from puustik;
+select * from logi2;
+
+DELETE FROM puustik
+WHERE väljadId = 5; 
+
+--delete trigger
+create trigger puuKustutamine
+on puustik
+for delete
+as
+insert into logi2(kasutaja, aeg, andmed)
+select
+SYSTEM_USER,
+GETDATE(),
+concat(
+'Kustutatud puu: ',
+deleted.nimi, ', ',
+deleted.pikkus, ' m, ',
+deleted.kasvamiseKoht, ', ',
+deleted.vanus, ' aastat, ',
+deleted.puuTyyp
+)
+from deleted;
+
+--kontroll
+delete from puustik
+where väljadId = 6;
+
+select * from puustik;
+select * from logi2;
+
+
+--update trigger
+
+create trigger puuUuendamine
+on puustik
+for update
+as
+insert into logi2(kasutaja, aeg, andmed)
+select
+SYSTEM_USER,
+GETDATE(),
+concat(
+'Vanad andmed: ',
+deleted.nimi, ', ',
+deleted.pikkus, ' m, ',
+deleted.kasvamiseKoht, ', ',
+deleted.vanus, ' aastat, ',
+deleted.puuTyyp,
+
+' ||| Uued andmed: ',
+
+inserted.nimi, ', ',
+inserted.pikkus, ' m, ',
+inserted.kasvamiseKoht, ', ',
+inserted.vanus, ' aastat, ',
+inserted.puuTyyp
+)
+from deleted
+inner join inserted
+on deleted.väljadId = inserted.väljadId;
+
+
+--kontroll
+update puustik
+set nimi = 'Kuusk',
+    pikkus = 15.2,
+    vanus = 30
+where väljadId = 7;
+
+select * from puustik;
+select * from logi2;
+
+
+-- välja lülitamine 
+disable TRIGGER puuLisamine on puustik;
+disable trigger puuKustutamine on puustik;
+enable trigger puuUuendamine on puustik;
+
+
+--Ühine trigger
+
+create trigger puuLisamineKustutamine
+on puustik
+for insert, delete
+as
+begin
+set nocount on;
+
+    insert into logi2(kasutaja, aeg, andmed)
+
+    select
+    SYSTEM_USER,
+    GETDATE(),
+    concat(
+    'Lisatud puu: ',
+    inserted.nimi, ', ',
+    inserted.pikkus, ' m, ',
+    inserted.kasvamiseKoht, ', ',
+    inserted.vanus, ' aastat, ',
+    inserted.puuTyyp
+    )
+    from inserted
+
+    union all
+
+    select
+    SYSTEM_USER,
+    GETDATE(),
+    concat(
+    'Kustutatud puu: ',
+    deleted.nimi, ', ',
+    deleted.pikkus, ' m, ',
+    deleted.kasvamiseKoht, ', ',
+    deleted.vanus, ' aastat, ',
+    deleted.puuTyyp
+    )
+    from deleted;
+
+end;
+
+-- lisamise kontroll
+
+insert into puustik(nimi, pikkus, kasvamiseKoht, vanus, puuTyyp)
+values ('Tamm', 18.7, 'Tartu', 40, 'Lehtpuu');
+
+select * from puustik;
+select * from logi2;
+
+-- kustutamise kontroll
+delete from puustik
+where väljadId = 8;
+
+select * from puustik;
+select * from logi2;
+
+
+--kasutaja
+grant select, insert, delete on puustik to sekretarNicolas2;
+deny select on logi2 to sekretarNicolas2;
+```
 
 
