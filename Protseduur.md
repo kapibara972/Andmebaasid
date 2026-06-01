@@ -1,6 +1,6 @@
 # SQL Protseduurid (Stored Procedures)
 
-[Select lause](Select.md) | [kasutajad](kasutaja.md) | [keys](keys.md) | [küsimused](kysimused.md) | [Triggerid](trigerid.md) 
+[Select lause](Select.md) | [kasutajad](kasutaja.md) | [keys](keys.md) | [küsimused](kysimused.md) | [Triggerid](trigerid.md) | [Protseduurid](Protseduurid.md) | [ Vaade ehk view](View.md)
 
 ## Mis on protseduur?
 
