@@ -1,10 +1,7 @@
 ## Andmebaasid Nicolas portfoolio,   LOGITpe24
 Andmebaaisd seotud sql kood ja konspektid
-[Select lause](Select.md), 
-[kasutajad](kasutaja.md), 
-[keys](keys.md), 
-[küsimused](kysimused.md), 
-[Triggerid](trigerid.md), 
+
+[Select lause](Select.md) | [kasutajad](kasutaja.md) | [keys](keys.md) | [küsimused](kysimused.md) |[Triggerid](trigerid.md), 
 
 
 
