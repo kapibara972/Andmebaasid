@@ -1,4 +1,10 @@
 
+[Select lause](Select.md), 
+[kasutajad](kasutaja.md), 
+[keys](keys.md), 
+[küsimused](kysimused.md), 
+[Triggerid](trigerid.md), 
+
 ### 1. Primary Key -- Primaarvõti on veerg, mis identifitseerib iga rea unikaalselt
 Erineb:
   ainult 1 tabelis, 
