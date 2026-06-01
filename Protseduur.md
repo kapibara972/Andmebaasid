@@ -1,5 +1,7 @@
 # SQL Protseduurid (Stored Procedures)
 
+[Select lause](Select.md) | [kasutajad](kasutaja.md) | [keys](keys.md) | [küsimused](kysimused.md) | [Triggerid](trigerid.md) 
+
 ## Mis on protseduur?
 
 Protseduur (Stored Procedure) on SQL-käskude kogum, mis salvestatakse andmebaasi ja mida saab hiljem nime järgi käivitada.
