@@ -1,6 +1,6 @@
 ### töö küsimused
 
-[Select lause](Select.md) | [kasutajad](kasutaja.md) | [keys](keys.md) | [küsimused](kysimused.md) | [Triggerid](trigerid.md) | [Protseduurid](Protseduurid.md) | [ Vaade ehk view](View.md)
+[Select lause](Select.md) | [kasutajad](kasutaja.md) | [keys](keys.md) | [küsimused](kysimused.md) | [Triggerid](trigerid.md) | [Protseduurid](Protseduur.md) | [ Vaade ehk view](View.md)
 
 **1. DDL **
 
