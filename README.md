@@ -1,5 +1,13 @@
-## Andmebaasid
+## Andmebaasid Nicolas portfoolio,   LOGITpe24
 Andmebaaisd seotud sql kood ja konspektid
+[Select lause](Select.md)
+[kasutajad](kasutaja.md)
+[keys](keys.md)
+[küsimused](kysimused.md)
+[Triggerid](trigerid.md)
+
+
+
 
 SQL - Structured Query Language - struktureeritud päringukeel
 DDL - Data Definitsion Language - andmebaasi struktuuri loomiseks
