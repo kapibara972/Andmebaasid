@@ -1,10 +1,6 @@
 ### Triger - Trigger - päästik
 
-[Select lause](Select.md), 
-[kasutajad](kasutaja.md), 
-[keys](keys.md), 
-[küsimused](kysimused.md), 
-[Triggerid](trigerid.md), 
+[Select lause](Select.md) | [kasutajad](kasutaja.md) | [keys](keys.md) | [küsimused](kysimused.md) | [Triggerid](trigerid.md) 
 
 ### Triger - andmebaasi objekt, mis käivitub automaatselt, Kui toimubteatud sündmus (nt: insert, update, delete).
 trigerite loomineautomatiseerub protsessid SQL Serveris.
