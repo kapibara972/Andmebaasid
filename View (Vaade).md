@@ -1,5 +1,7 @@
 # SQL Vaated (Views)
 
+[Select lause](Select.md) | [kasutajad](kasutaja.md) | [keys](keys.md) | [küsimused](kysimused.md) | [Triggerid](trigerid.md) 
+
 ## Mis on vaade?
 
 Vaade (**View**) on virtuaalne tabel, mis põhineb ühe või mitme tabeli andmetel. Vaade ise tavaliselt andmeid ei salvesta, vaid kuvab andmeid päringu tulemuse põhjal.
