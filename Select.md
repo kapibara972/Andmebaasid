@@ -1,6 +1,6 @@
 ### select laused 
 
-[Select lause](Select.md) | [kasutajad](kasutaja.md) | [keys](keys.md) | [küsimused](kysimused.md) | [Triggerid](trigerid.md) 
+[Select lause](Select.md) | [kasutajad](kasutaja.md) | [keys](keys.md) | [küsimused](kysimused.md) | [Triggerid](trigerid.md) | [Protseduurid](Protseduurid.md) | [ Vaade ehk view](View.md)
 
 <img width="506" height="360" alt="{2FFE95FE-305B-4AA5-BE55-F744977D3645}" src="https://github.com/user-attachments/assets/ce22eb2c-38f6-4b19-baae-9caaf15612b9" />
 
