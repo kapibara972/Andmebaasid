@@ -1,3 +1,4 @@
+### 1. Primary Key -- Primaarvõti on veerg, mis identifitseerib iga rea unikaalselt
 
 [Select lause](Select.md), 
 [kasutajad](kasutaja.md), 
@@ -5,7 +6,6 @@
 [küsimused](kysimused.md), 
 [Triggerid](trigerid.md), 
 
-### 1. Primary Key -- Primaarvõti on veerg, mis identifitseerib iga rea unikaalselt
 Erineb:
   ainult 1 tabelis, 
   ei tohi olla NULL, 
